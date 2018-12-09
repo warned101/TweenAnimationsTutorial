@@ -1,1 +1,1 @@
-This is Tween Animation tutorial.
+This is Tween Animation tutorial through XML.
