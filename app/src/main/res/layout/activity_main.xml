@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/face"
+        android:src="@drawable/ic_face"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <Button
+            android:id="@+id/rot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate" />
+        <Button
+            android:id="@+id/sca"
+            android:layout_toRightOf="@+id/rot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale"/>
+        <Button
+            android:id="@+id/tra"
+            android:layout_toRightOf="@+id/sca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translate" />
+        <Button
+            android:layout_toRightOf="@+id/tra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:id="@+id/button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
